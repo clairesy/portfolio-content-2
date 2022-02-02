@@ -1,0 +1,95 @@
+nav li{
+	margin: 10px 0;
+	background-color: #f8e4f7;
+    font-size: 20px;
+	padding:17px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: bottom;
+	width: 15%;
+	margin: 10px 0;
+	border-radius: 10px;  
+}
+
+nav a{
+	text-decoration: none;
+	color: rgb(74, 39, 107);
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+.active{
+	font-weight: bold;
+	font-size: 24px;
+	background-color: rgb(154, 117, 192);
+	border: 3px solid rgb(116, 113, 113);
+}
+
+.viewpic{
+	padding: 2px;
+	border: 10px solid rgb(190, 114, 190);
+	border-radius: 5px;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+.attractionpic{
+	height: 290px;
+	width: auto;
+	border: 10px solid rgb(211, 165, 211);
+	padding: 15px;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.attractions img:nth-child(3n) {
+	background-color: #ac8fd4;
+	border-style: solid;
+}
+
+.attractionpic:hover{
+	box-shadow: 8px 8px 9px #42444e;
+	border: 10px dashed #D76D77;
+	transform: scale(1.1);
+}
+
+.attractions img:nth-child(3n):hover{
+	box-shadow: 8px 8px 9px #42444e;
+	border: 10px dashed #D76D77;
+	transform: scale(1.1);
+}
+  
+.museumpic{
+	height: 290px;
+	width: auto;
+	border: 6px dashed #a583e7;
+	padding: 15px;
+	border-radius: 12px;
+	margin: 20px;
+}
+
+.museumpic:hover{
+	filter: grayscale();
+	border: 6px solid #3f3e41;
+	box-shadow: 0px 0px 9px 9px #6e6c74;
+}
+
+.museums img:nth-child(2n) {
+	background-color: #dad1ec;
+}
+  
+.activitypic{
+	height: 290px;
+	width: auto;
+	border: 5px dashed #8063bb;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 20px;
+}
+
