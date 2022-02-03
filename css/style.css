@@ -75,13 +75,17 @@ nav a:hover{
 }
 
 .museumpic:hover{
-	filter: grayscale();
+	filter: opacity(.5);
 	border: 6px solid #3f3e41;
-	box-shadow: 0px 0px 9px 9px #6e6c74;
+	box-shadow: 0px 0px 9px 9px #785ec9;
 }
 
 .museums img:nth-child(2n) {
 	background-color: #dad1ec;
+}
+
+.museums img:nth-child(2n):hover{
+	filter: grayscale(0.9);
 }
   
 .activitypic{
@@ -92,4 +96,3 @@ nav a:hover{
 	border-radius: 5px;
 	margin: 20px;
 }
-
